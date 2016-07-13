@@ -17,6 +17,9 @@ Thumbs.db
 *.out
 *.o
 
+# 'Compiled' Java files
+*.class
+
 # Application specific files
 venv
 node_modules
