@@ -6,7 +6,7 @@ int calcSum()
 {
   // The total sum of the numbers.
   int sum = 0;
-  // Tterate 999 times.
+  // Iterate 999 times.
   for(int i = 0; i < 1000; i++)
   {
     // If i divided by 5 or 3 has a remainder of 0...

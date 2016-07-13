@@ -20,6 +20,9 @@ Thumbs.db
 # 'Compiled' Java files
 *.class
 
+# Backups
+*.*\~
+
 # Application specific files
 venv
 node_modules
