@@ -1,3 +1,11 @@
+# Ignore all (handles unix executables)
+*
+
+# Unignore all files with extensions
+!*.*
+# Unignore all directores
+!*/
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
@@ -23,6 +31,11 @@ Thumbs.db
 # Backups
 *.*\~
 *\~
+\#*\#
+*\#
+
+# Haskell interface files
+*.hi
 
 # Application specific files
 venv
