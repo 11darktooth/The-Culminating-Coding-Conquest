@@ -22,7 +22,7 @@ int calcSum()
 int main(int argc, char** argv)
 {
   // Print a message along the sum and append a new line.
-  printf("The sum of all multiples of 3 and 5 below 1000 are: %d\n", multOf3And5());
+  printf("The sum of all multiples of 3 and 5 below 1000 are: %d\n", calcSum());
   // Return the exit code for success.
   return 0;
 }
