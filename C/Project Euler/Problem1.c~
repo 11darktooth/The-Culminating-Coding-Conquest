@@ -1,0 +1,28 @@
+// include the functions for standard input and output.
+#include <stdio.h>
+
+// this method calculates the sum of all multiples of 3 and 5 under 1000.
+int calcSum()
+{
+  // the total sum of the numbers.
+  int sum = 0;
+  // iterate 999 times.
+  for(int i = 0; i < 1000; i++)
+  {
+    // if i divided by 5 or 3 has a remainder of 0...
+    if(i % 5 == 0 || i % 3 == 0)
+      // add i to sum
+      sum += i;
+  }
+  // return the sum.
+  return sum;
+}
+
+// the main method
+int main(int argc, char** argv)
+{
+  // print a message + the sum and append a new line.
+  printf("The sum of all multiples of 3 and 5 below 1000 are: %d\n", multOf3And5());
+  // return the exit code for success.
+  return 0;
+}
